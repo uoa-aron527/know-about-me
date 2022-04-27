@@ -14,8 +14,8 @@
     }
 
     li{
-        @apply px-5;
+        @apply px-5 h-[60px] py-[18px];
         @apply cursor-pointer;
-        @apply hover:bg-violet-800 transition ease-out duration-300
+        @apply hover:bg-indigo-800 transition ease-out duration-300
     }
 }
