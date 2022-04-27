@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+@layer base{
+
+    body{
+        @apply font-[Montserrat];
+    }
+
+    li{
+        @apply px-5;
+        @apply cursor-pointer;
+        @apply hover:bg-violet-800 transition ease-out duration-300
+    }
+}
