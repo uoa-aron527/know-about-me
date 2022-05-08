@@ -16,6 +16,6 @@
     li{
         @apply px-5 h-[60px] py-[18px];
         @apply cursor-pointer;
-        @apply hover:text-red-500 transition ease-out duration-300
+        @apply hover:text-red-500 transition ease-in-out duration-200
     }
 }
