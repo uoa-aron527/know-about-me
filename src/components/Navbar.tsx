@@ -25,7 +25,7 @@ const Navbar: React.FC<NavbarProps> = () => {
 
         {/* Smaller screen view (mobile) */}
 
-        <ul className= 'md:hidden absolute top-0 left-0 w-full h-screen bg-gray-900 px-4 text-gray-200 flex flex-col justify-center items-center'>
+        <ul className= {!navVisible ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-gray-900 px-4 text-gray-200 flex flex-col justify-center items-center'}>
           <li className='py-[14px] text-4xl mb-2'> Home </li>
           <li className='py-[14px] text-4xl mb-2'> About </li>
           <li className='py-[14px] text-4xl mb-2'> Skills </li>
