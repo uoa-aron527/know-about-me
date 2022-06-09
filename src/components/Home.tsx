@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-const Home = () => {
+interface HomeProps{}
+
+const Home: React.FC<HomeProps> = () => {
   return (
-    <div>Home</div>
+    <div className='bg-blue-500'>Home</div>
   )
 }
 
