@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {GiHamburgerMenu} from 'react-icons/gi';
+import { FaTimes, FaBars } from 'react-icons/fa';
 
 interface NavbarProps {}
 
 const Navbar: React.FC<NavbarProps> = () => {
+  const [navVisible, setNavVisible] = useState(false);
+
   return (
     <div className='fixed w-full h-[60px] flex justify-center items-center bg-gray-900 px-4 text-gray-200'>
         {/* Insert Logo here from the /assets directory */}
