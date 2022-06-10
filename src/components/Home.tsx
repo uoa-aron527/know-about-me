@@ -4,7 +4,7 @@ interface HomeProps{}
 
 const Home: React.FC<HomeProps> = () => {
   return (
-    <div className='bg-blue-500'>Home</div>
+    <div className='bg-gray-700 h-screen'>Home</div>
   )
 }
 
